@@ -19,7 +19,7 @@ class EventController extends AbstractController
     }
 
     /**
-     * @Route("/", name="events")
+     * @Route("/events", name="events")
      */
     public function show_all(): Response
     {
